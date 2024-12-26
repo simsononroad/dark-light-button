@@ -1,0 +1,24 @@
+#center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 97vh;
+
+}
+.btn{
+    padding: 0;
+    margin: none;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 100px;
+    
+}
+
+#button{
+    border: 3px solid black;
+    text-align: center;
+    border-radius: 100px;
+    justify-content: center;
+    display: flex;
+}
