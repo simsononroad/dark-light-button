@@ -5,11 +5,11 @@ function light(){
     if (isGrayBackground == 0){
         var body = document.querySelector("body").style.backgroundColor = "gray"
         isGrayBackground = 1
-        console.log(isGrayBackground)
+        var icon = document.getElementById("checkbox").innerText="☀️"
     }else{
         var body = document.querySelector("body").style.backgroundColor = "white"
         isGrayBackground = 0
-        console.log(isGrayBackground)
+        var icon = document.getElementById("checkbox").innerText="🌑"
     }
     
 }

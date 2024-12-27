@@ -1,64 +1,12 @@
 #center-div{
+    height: 98vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    height: 97vh;
-
 }
-.btn{
-    padding: 0;
-    margin: none;
-    border: 0px;
-    background-color: rgba(0, 0, 0, 0);
+#checkbox{
+    background-color: transparent;
     font-size: 100px;
-
-}
-
-#button{
-    text-align: center;
-    border-radius: 100px;
-    justify-content: center;
-    display: flex;
-}
-
-input[type=checkbox] {
-    position: relative;
-    cursor: pointer;
-
-    font-size: 100px;
-    border-radius: 100px;
-}
-input[type=checkbox]:before {
-    content: "";
-    display: block;
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    top: 0;
-    left: 0;
-    background-color: white;
-    border: none;
-    outline-width: 0;
-}
-input[type=checkbox]:checked:after {
-    content: "☀️";
-    display: block;
-    width: 5px;
-    height: 10px;
-
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    outline-width: 0;
-}
-input[type=checkbox]:after {
-    content: "🌑";
-    display: block;
-    width: 5px;
-    height: 10px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
 }
 
